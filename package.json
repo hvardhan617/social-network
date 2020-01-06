@@ -19,7 +19,7 @@
     "build": "react-app-rewired build",
     "test": "react-app-rewired test --env=jsdom",
     "eject": "react-scripts eject",
-    "web": "webpack-dev-server --open"
+    "web": "webpack-dev-server --open --host 0.0.0.0"
   },
   "eslintConfig": {
     "extends": "react-app"
