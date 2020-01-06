@@ -54,6 +54,7 @@ alias: {
 
   // Development server config
   devServer: {
+     disableHostCheck: true,
     contentBase: [path.join(__dirname, 'public')],
     historyApiFallback: true,
   },
